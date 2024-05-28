@@ -3,7 +3,7 @@ Applied understanding of the K-means algorithm and principal component analysis 
 
 ## Description
 
-Applies understanding of the K-means algorithm and principal component analysis (PCA) to classify cryptocurrencies according to their price flucuations across various timeframes and specifically, examines price changes over 24 hours, 7 days, 30 days, 60 days, 200 days, and 1 year.
+Applies understanding of the K-means algorithm and principal component analysis (PCA) to classify cryptocurrencies according to their price flucuations across various timeframes and specifically, examines price changes over 24 hours, 7 days, 30 days, 60 days, 200 days, and 1 year. Uses PCA to determine which data attribute have the greatest influence on component analysis outcomes.
 
 ### Skills Demonstrated
 
@@ -19,8 +19,9 @@ The primary skills demonstrated include the ability to:
 
 Python Libraries
 * pandas
-* datetime
-* TBD
+* KMeans (from sklearn.cluster)
+* PCA (from sklearn.decomposition)
+* StandardScalar (from sklearn.preprocessing)
 
 ## Contributor
 
